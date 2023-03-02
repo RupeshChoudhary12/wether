@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    
+    background-image: url(./50732578156_1cd70124d4_o.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+span {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(./Jungle-Rot.jpg); */
+    /* animation: 10s ease-out alternate-reverse backwards; */
+}
+.primary-links{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    
+}
+.primary-links img{
+    height: 65px;
+    
+}
+
+.Wether{
+    background-color: black;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links{
+    margin-left: 70px;
+    margin-right: 70px;
+    width:100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+}
+
+input {
+    text-align: center;
+    height: 40px;
+    width: 240px;
+    border-radius: 40px ;
+    background-color: skyblue;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+button {
+    height: 40px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
